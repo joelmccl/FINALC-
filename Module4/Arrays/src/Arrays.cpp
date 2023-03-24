@@ -11,6 +11,8 @@ Programmer: Eric Foo
 
 using namespace std;
 
+// change test
+
 // function that takes in an array
 void functionArrayInput(int [], int);
 
