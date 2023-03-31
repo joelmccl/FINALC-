@@ -16,15 +16,21 @@ int main() {
 	// When declaring a character use single quotes
 	// For strings use double quotes
 	char singleChar = 'a';
-	char multipleChar = 'abc';
+	char multipleChar[] = "abc";
+
+	char key[] = "yes";
+	//char buffer[50]; 
+	char response[50];
 
 	char firstChar[] = "This is a string";
 	char strToToken[] = "This is the string to be tokenized";
-
+	char* fourthChar;
+	char fifthChar[55] = "I don't like you";
 	const size_t numChar = strlen(firstChar);  //the 'size_t' type is the return type of the strlen method
 
 	char secondChar[50];
-	char thirdChar[7];
+	char thirdChar[7];  //was 7
+
 	// character pointer to temporarily store tokens
 	char* tokenPtr;
 
@@ -40,7 +46,7 @@ int main() {
 	cout << "First String: " << firstChar << endl;
 
 	// this copies the entire string into another string variable
-	strcpy( secondChar, firstChar );
+	strcpy( secondChar, multipleChar );
 	cout << "Copied String: " << secondChar << endl;
 
 	// this copies only a certain number of characters
@@ -74,6 +80,20 @@ int main() {
 
 	cout << "Number of delimiters found: " << numDelim << endl;
 
+	fourthChar = strcat(fifthChar, ", loser!");  //adding text to string with strcat
+	cout << fourthChar << endl;
+	printf("I like food\n\n");
+
+	cout << "Am I hungry?" << endl;  //cool quiz using strcmp -that doesn't work :(
+	cin >> response;
+	if (strcmp(key, response) == 0)
+	{
+		cout << "Correct!" << endl;
+	}
+	else
+	{
+		cout << "dummy..." << endl;
+	}
 	/********************************************************
 	Try other string functions like:
 	- strcat

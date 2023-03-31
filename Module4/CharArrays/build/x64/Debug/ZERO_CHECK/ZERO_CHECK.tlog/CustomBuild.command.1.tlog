@@ -1,0 +1,10 @@
+^H:\CMAKE C++\FINALC-\MODULE4\CHARARRAYS\BUILD\CMAKEFILES\592F8EB8A2B03B382DB8FFA544EF6332\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/CMake C++/FINALC-/Module4/CharArrays" "-BH:/CMake C++/FINALC-/Module4/CharArrays/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/CMake C++/FINALC-/Module4/CharArrays/build/CharArrays.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
