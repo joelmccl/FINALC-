@@ -1,0 +1,10 @@
+^H:\CMAKE C++\FINALC-\MODULE4\FUNCTIONS\BUILD\CMAKEFILES\EBAA5DDD29313B8645BA9E0CE1FCA191\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/CMake C++/FINALC-/Module4/Functions" "-BH:/CMake C++/FINALC-/Module4/Functions/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/CMake C++/FINALC-/Module4/Functions/build/Functions.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

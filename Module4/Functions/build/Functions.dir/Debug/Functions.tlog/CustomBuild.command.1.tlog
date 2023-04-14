@@ -1,0 +1,10 @@
+^H:\CMAKE C++\FINALC-\MODULE4\FUNCTIONS\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/CMake C++/FINALC-/Module4/Functions" "-BH:/CMake C++/FINALC-/Module4/Functions/build" --check-stamp-file "H:/CMake C++/FINALC-/Module4/Functions/build/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

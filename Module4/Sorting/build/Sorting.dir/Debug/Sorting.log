@@ -1,0 +1,6 @@
+﻿  Sorting.cpp
+H:\CMake C++\FINALC-\Module4\Sorting\src\Sorting.cpp(80,16): error C2228: left of '.begin' must have class/struct/union
+H:\CMake C++\FINALC-\Module4\Sorting\src\Sorting.cpp(80,16): message : type is 'std::string [10]'
+H:\CMake C++\FINALC-\Module4\Sorting\src\Sorting.cpp(80,2): error C2672: 'sort': no matching overloaded function found
+H:\CMake C++\FINALC-\Module4\Sorting\src\Sorting.cpp(80,53): error C2780: 'void std::sort(const _RanIt,const _RanIt,_Pr)': expects 3 arguments - 2 provided
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\algorithm(7076): message : see declaration of 'std::sort'

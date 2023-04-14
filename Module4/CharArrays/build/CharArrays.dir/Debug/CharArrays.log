@@ -4,4 +4,5 @@ H:\CMake C++\FINALC-\Module4\CharArrays\src\chararrays.cpp(55,2): warning C4996:
 H:\CMake C++\FINALC-\Module4\CharArrays\src\chararrays.cpp(64,13): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 H:\CMake C++\FINALC-\Module4\CharArrays\src\chararrays.cpp(72,14): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
 H:\CMake C++\FINALC-\Module4\CharArrays\src\chararrays.cpp(83,15): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+H:\CMake C++\FINALC-\Module4\CharArrays\src\chararrays.cpp(89,2): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   CharArrays.vcxproj -> H:\CMake C++\FINALC-\Module4\CharArrays\build\Debug\CharArrays.exe

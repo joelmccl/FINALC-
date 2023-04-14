@@ -86,13 +86,14 @@ int main() {
 
 	cout << "Am I hungry?" << endl;  //cool quiz using strcmp -that doesn't work :(
 	cin >> response;
-	if (strcmp(key, response) == 0)
+	scanf("%49s",&response);
+	if (strcmp(key, response) != 0)
 	{
 		cout << "Correct!" << endl;
 	}
 	else
 	{
-		cout << "dummy..." << endl;
+		cout << "bruh..." << endl;
 	}
 	/********************************************************
 	Try other string functions like:

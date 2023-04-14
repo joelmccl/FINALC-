@@ -1,0 +1,10 @@
+^H:\CMAKE C++\FINALC-\MODULE4\SORTING\BUILD\CMAKEFILES\B9DB05AD8CA8B71AD9DB846B10CD4870\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/CMake C++/FINALC-/Module4/Sorting" "-BH:/CMake C++/FINALC-/Module4/Sorting/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/CMake C++/FINALC-/Module4/Sorting/build/Sorting.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
