@@ -1,0 +1,10 @@
+^H:\CMAKE C++\FINALC-\MODULE5\FILEIO\BUILD\CMAKEFILES\1ADC7649C8E71B7D9900D1E8A84A9E7C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/CMake C++/FINALC-/Module5/fileIO" "-BH:/CMake C++/FINALC-/Module5/fileIO/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/CMake C++/FINALC-/Module5/fileIO/build/fileIO.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

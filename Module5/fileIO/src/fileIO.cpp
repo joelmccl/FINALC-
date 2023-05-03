@@ -25,23 +25,23 @@ int main()
 	
 	if(fileIn.is_open()){  //Sometimes it's a good idea to verify that the file exists and is open before working with it.
 		string text;
-		fileIn >> text;
+	//	fileIn >> text;
 		/*
 		Run the code once with the above line and notice the output.  Using the '>>' will only go until it
 		finds the first delimiter which in this case would be the space character.  Try the code a second time, commenting
 		out the above line and instead use the one below.
 		*/
-		//getline(fileIn, text);
+		getline(fileIn, text);
 		
 		cout << "text:  " << text << endl;  //Print to the terminal window.
 		fileOut << text;  //Save this text to output.txt.
 	}
 
-	int values[10], index=0;  //Create an array to store input values and an index to keep track of the array position.
+/*	int values[10], index = 0;  //Create an array to store input values and an index to keep track of the array position.
 	/*
 	Note:  I created the array to the exact size of what I knew the input to be.  This won't always be the case.  Adding another
 	number to the input2.txt file would cause the program to not work as expected.
-	*/
+	/*
 	if(fileIn2.is_open()){
 		while(!fileIn2.eof()){  //'eof' stands for end of file.  Here we are saying to enter the loop as long as the end of the file has not been reached.
 			fileIn2 >> values[index];  //The '>>' operator works fine in this case as we only want single integers for each input.
@@ -60,5 +60,6 @@ int main()
 	fileIn2.close();
 	fileOut.close();
 	fileOut2.close();
+	*/
 	return 0;
 }
