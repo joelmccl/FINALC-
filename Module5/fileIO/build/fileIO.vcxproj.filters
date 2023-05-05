@@ -13,4 +13,15 @@
       <UniqueIdentifier>{4CDA1ECB-894A-367C-802B-C5441B66938D}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\input.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\input2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+    <Text Include="..\output2.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
 </Project>

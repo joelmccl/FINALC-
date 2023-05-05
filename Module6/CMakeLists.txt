@@ -29,9 +29,9 @@ endif(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
 
 
 set(SOURCES 
-../src/main.cpp
-../src/histogram.cpp
-../src/histogram.h
+src/main.cpp
+src/histogram.cpp
+src/histogram.h
 )
 
 

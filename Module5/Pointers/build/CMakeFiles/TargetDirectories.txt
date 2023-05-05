@@ -1,0 +1,3 @@
+H:/CMake C++/FINALC-/Module5/Pointers/build/CMakeFiles/Pointers.dir
+H:/CMake C++/FINALC-/Module5/Pointers/build/CMakeFiles/ALL_BUILD.dir
+H:/CMake C++/FINALC-/Module5/Pointers/build/CMakeFiles/ZERO_CHECK.dir
