@@ -16,8 +16,8 @@ public:		//Public methods and variables can be called or accessed from outside t
 
 	//Add some of your own public methods that can be called from main()
 	//For example:  a function that will return statistical information about the data set
-	//double getMean();
-	//double getMedian();
+	double getMean();
+//	double getMedian();
 
 	int numBins, numElements;	//Public variables, can be accessed/changed from anywhere.
 

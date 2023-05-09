@@ -2,6 +2,9 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
+      <FullPath>H:\CMake C++\FINALC-\Module6\x64\Debug\ZERO_CHECK</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
       <FullPath>H:\CMake C++\FINALC-\Module6\Debug\Module6.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>

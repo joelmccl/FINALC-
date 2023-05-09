@@ -1,0 +1,10 @@
+^H:\CMAKE C++\FINALC-\MODULE6\CMAKEFILES\05705E5C44A0A56D1165AC966C1BB677\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SH:/CMake C++/FINALC-/Module6" "-BH:/CMake C++/FINALC-/Module6" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "H:/CMake C++/FINALC-/Module6/Module6.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

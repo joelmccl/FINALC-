@@ -95,6 +95,11 @@ void histogram::processHistogram()	//Public method, member of the class histogra
 }
 
 //Include the code for your functions here.
+double histogram::getMean()
+{
+
+}
+
 
 
 void histogram::drawHistogram()	//Private method, member of the class histogram.
