@@ -95,10 +95,31 @@ void histogram::processHistogram()	//Public method, member of the class histogra
 }
 
 //Include the code for your functions here.
-double histogram::getMean()
+double histogram::getMean(const string filename)
 {
+	ifstream file(filename);
+	if (!file.is_open()) {
+		throw runtime_error("Cannot open file");
+	}
+	vector<double> data(numElements);
+	for (int i = 0; i < numElements; i++) {
+		if (!(file >> data[i])) {
+			throw std::runtime_error("Invalid file format");
+		}
+	}
 
+	if (data.empty()) {
+		throw runtime_error("No data found in file");
+	}
+
+	double sum = 0;
+	for (const auto& d : data) {
+		sum += d;
+	}
+
+	return sum / data.size();
 }
+
 
 
 

@@ -1,6 +1,7 @@
 #include <iostream>	//Standard includes again.
 #include <fstream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -16,7 +17,7 @@ public:		//Public methods and variables can be called or accessed from outside t
 
 	//Add some of your own public methods that can be called from main()
 	//For example:  a function that will return statistical information about the data set
-	double getMean();
+	double getMean(const string filename);
 //	double getMedian();
 
 	int numBins, numElements;	//Public variables, can be accessed/changed from anywhere.
