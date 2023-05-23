@@ -6,15 +6,23 @@ Program to demonstrate usage of classes
 Programmer: Joel McCleary
 ********************************/
 
-#include <iostream>	//Here we have some of the normal included headers
+#include <iostream>	//normal included headers
 #include <fstream>
 #include <string>
+#include <vector>
+
+//#include "Shape.h"
+#include "Rectangle.h"
 
 using namespace std;
 
 int main()
 {
-	
+	Rectangle rectangle; //object creation
+	rectangle.setLength(12);
+	rectangle.setBreadth(10);
+	rectangle.setName("Rectangle");
+	rectangle.printArea();
 
 	return 0;
 }
